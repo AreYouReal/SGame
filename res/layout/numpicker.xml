@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/numpicker"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+		<TableRow>
+	    	<Button
+	    	    android:id="@+id/key_1"
+	    	    android:text = "@string/num_1"/>
+	    	<Button
+	    	    android:id="@+id/key_2"
+	    	    android:text = "@string/num_2"/>
+	    	<Button
+	    	    android:id="@+id/key_3"
+	    	    android:text = "@string/num_3"/>
+	    </TableRow>
+	    <TableRow>
+	    	<Button
+	    	    android:id="@+id/key_4"
+	    	    android:text = "@string/num_4"/>
+	    	<Button
+	    	    android:id="@+id/key_5"
+	    	    android:text = "@string/num_5"/>
+	    	<Button
+	    	    android:id="@+id/key_6"
+	    	    android:text = "@string/num_6"/>
+	    </TableRow>
+	    <TableRow>
+	    	<Button
+	    	    android:id="@+id/key_7"
+	    	    android:text = "@string/num_7"/>
+	    	<Button
+	    	    android:id="@+id/key_8"
+	    	    android:text = "@string/num_8"/>
+	    	<Button
+	    	    android:id="@+id/key_9"
+	    	    android:text = "@string/num_9"/>
+	    </TableRow>
+	    <Button
+	    	    android:id="@+id/key_remove"
+	    	    android:text = "@string/remove_number"/>
+	    <Button
+	    	    android:id="@+id/key_0"
+	    	    android:text ="@string/cancel"/>
+</TableLayout>

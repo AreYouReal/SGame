@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinLay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dip" >
+
+    <TextView
+        android:id="@+id/textTitle"
+		android:layout_margin="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:layout_gravity="center_horizontal"/>
+    
+     <Button
+        android:id="@+id/playBtn"
+		android:layout_margin="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play"/>
+        
+    <Button
+        android:id="@+id/sSolverBtn"
+		android:layout_margin="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"/>
+    <Button
+        android:id="@+id/h2useBtn"
+        android:layout_margin="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/h2use"/>
+<!--     <Button
+        android:id="@+id/exitBtn"
+        android:layout_margin="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit" /> -->
+
+</LinearLayout>

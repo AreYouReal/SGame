@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hidenums"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+		<TableRow>
+	    	<Button
+	    	    android:id="@+id/hn_1"
+	    	    android:text = "@string/num_1"/>
+	    	<Button
+	    	    android:id="@+id/hn_2"
+	    	    android:text = "@string/num_2"/>
+	    	<Button
+	    	    android:id="@+id/hn_3"
+	    	    android:text = "@string/num_3"/>
+	    </TableRow>
+	    <TableRow>
+	    	<Button
+	    	    android:id="@+id/hn_4"
+	    	    android:text = "@string/num_4"/>
+	    	<Button
+	    	    android:id="@+id/hn_5"
+	    	    android:text = "@string/num_5"/>
+	    	<Button
+	    	    android:id="@+id/hn_6"
+	    	    android:text = "@string/num_6"/>
+	    </TableRow>
+	    <TableRow>
+	    	<Button
+	    	    android:id="@+id/hn_7"
+	    	    android:text = "@string/num_7"/>
+	    	<Button
+	    	    android:id="@+id/hn_8"
+	    	    android:text = "@string/num_8"/>
+	    	<Button
+	    	    android:id="@+id/hn_9"
+	    	    android:text ="@string/num_9"/>
+	    </TableRow>
+	    <Button
+	    	    android:id="@+id/hn_reset"
+	    	    android:text = "@string/unhideAll"/>
+	    <Button
+	    	    android:id="@+id/hn_0"
+	    	    android:text = "@string/ok"/>
+</TableLayout>

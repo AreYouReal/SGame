@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SGame</string>
+    <string name="num_1">1</string>
+	<string name="num_2">2</string>
+	<string name="num_3">3</string>
+	<string name="num_4">4</string>
+	<string name="num_5">5</string>
+	<string name="num_6">6</string>
+	<string name="num_7">7</string>
+	<string name="num_8">8</string>
+	<string name="num_9">9</string>
+	<string name="remove_number">Remove number</string>
+    <string name="cancel">Cancel</string>
+	<string name="unhideAll">Unhide All</string>
+	<string name="ok">OK</string>
+	<string name="start">Solve for me!</string>
+	<string name="h2use">FAQ</string>
+	<string name="exit">EXIT</string>
+	<string name="main_title">Sudoku Game</string>
+	  <string name="play">Play!</string>
+	  <string name="easy">Easy</string>
+	  <string name="medium">Medium</string>
+	  <string name="hard">Hard</string>
+	  <string name="diftitle">Choose the difficulty</string>
+	  <string name="resumLast">Resume Last Game</string>
+	  <string name="faq_intro">Intruduction \n\nThe name Sudoku is the Japanese abbreviation of a longer phrase meaning \"the digits must remain single\"; it is a trademark of puzzle publisher Nikoli Co. Ltd in Japan. The attraction of the puzzle is that the completion rules are simple, yet the line of reasoning required to reach the completion may be difficult. Sudoku is recommended by some teachers as an exercise in logical reasoning. The level of difficulty of the puzzles can be selected to suit the audience.\n\n\n Did you know that Dr. House was clearly seen working on a Sudoku puzzle on his office computer in one scene of the December 13, 2005 episode of House, M. D.?:)\n</string>
+	  <string name="faq_tips">Here are some tips: 
+	      \n\n - Switching vibro on/off - tap phone menu button in main window; 
+	      \n\n - If you want immediatelly solve puzzle - tap phone menu button while playing and choose \'solve\';
+	      \n\n - For hiding number in final solution while using Solver apps option tap \'Settings\' and choose numbers you want hide;
+	      \n\n - You can create your own puzzles using \"Solve for me\" tools. Just create puzzle and check is it solveable?
+	      \n\n Have fun!\n</string>
+	  <string name="faq_rules">Rules \n\nUsing the numbers 1 through 9, the 81 cells in the sudoku grid must be filled so that every column, row and block contains the numbers 1 through 9. No number can repeat within any column, row or block. Certain numbers are given and the puzzler must then fill in the remainder in order to solve the puzzle. The amount of numbers given, which ones, and their placement within the grid determine the difficulty of the puzzle.\n</string>
+</resources>

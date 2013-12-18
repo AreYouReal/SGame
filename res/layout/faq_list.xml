@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">    
+
+    <ImageView 
+        android:id="@+id/image"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <!-- The frame layout is here since we will be showing either
+    the empty view or the list view.  -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+        <!-- Here is the list. Since we are using a ListActivity, we
+             have to call it "@android:id/list" so ListActivity will
+             find it -->
+        <ListView android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false"/>
+
+    </FrameLayout>
+        <ScrollView android:layout_width="wrap_content"
+    				android:layout_height="wrap_content" 
+    				android:layout_weight="1"
+    				android:layout_gravity="center_horizontal"
+    				android:padding="15dip">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"/>
+</ScrollView>
+</FrameLayout>
